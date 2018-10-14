@@ -1,0 +1,59 @@
+.l-hot-spot {
+  display: block;
+}
+
+.l-hot-spot__item {
+  position: relative;
+  cursor: pointer;
+  background: transparent none no-repeat center center;
+  background-size: cover;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+}
+
+.l-hot-spot__item::before {
+  content: "";
+  display: block;
+  width: 100%;
+}
+
+.c-hot-spot-point {
+  pointer-events: none;
+  position: absolute;
+  cursor: default;
+  width: 15px;
+  height: 15px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 2px solid #004991;
+  background: #f1f3f6;
+  border-radius: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-animation: sonar 1600ms ease-out infinite;
+  animation: sonar 1600ms ease-out infinite;
+}
+
+@-webkit-keyframes sonar {
+  from {
+    -webkit-box-shadow: 0 0 0 0 #0071c4, 0 0 4px 2px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 0 0 #0071c4, 0 0 4px 2px rgba(0, 0, 0, 0.15);
+  }
+  to {
+    -webkit-box-shadow: 0 0 0 7px rgba(255, 147, 223, 0), 0 0 4px 2px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 0 7px rgba(255, 147, 223, 0), 0 0 4px 2px rgba(0, 0, 0, 0.15);
+  }
+}
+
+@keyframes sonar {
+  from {
+    -webkit-box-shadow: 0 0 0 0 #0071c4, 0 0 4px 2px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 0 0 #0071c4, 0 0 4px 2px rgba(0, 0, 0, 0.15);
+  }
+  to {
+    -webkit-box-shadow: 0 0 0 7px rgba(255, 147, 223, 0), 0 0 4px 2px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 0 7px rgba(255, 147, 223, 0), 0 0 4px 2px rgba(0, 0, 0, 0.15);
+  }
+}

@@ -1,0 +1,30 @@
+{
+    "name": "silverstripe/silverstripe-image-points",
+    "description": "Plot points on an image.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ryan Potter",
+            "email": "ryan.potter@littlegiant.co.nz",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": ""
+    },
+    "require": {
+        "silverstripe/cms": "^4",
+        "silverstripe/framework": "^4"
+    },
+    "autoload": {
+        "psr-4": {
+            "LittleGiant\\ImagePoints\\": "src/"
+        }
+    },
+    "extra": {
+        "installer-name": "silverstripe-image-points",
+        "expose": [
+            "client"
+        ]
+    }
+}
