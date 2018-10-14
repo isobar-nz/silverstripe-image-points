@@ -140,9 +140,9 @@ class Point extends DataObject
     }
 
     /**
-     * @return int
+     * @return float
      */
-    public function getXPos(): int
+    public function getXPos(): float
     {
         $values = explode(',', $this->Position);
         $value = count($values) ? $values[0] : 0;
@@ -151,9 +151,9 @@ class Point extends DataObject
     }
 
     /**
-     * @return int
+     * @return float
      */
-    public function getYPos(): int
+    public function getYPos(): float
     {
         $values = explode(',', $this->Position);
         $value = count($values) ? $values[1] : 0;
