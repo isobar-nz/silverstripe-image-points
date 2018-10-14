@@ -1,6 +1,11 @@
 {
     "name": "littlegiant/silverstripe-image-points",
     "description": "Plot points on an image.",
+    "type": "silverstripe-vendormodule",
+    "keywords": [
+        "silverstripe",
+        "module"
+    ],
     "license": "MIT",
     "authors": [
         {
@@ -10,7 +15,7 @@
         }
     ],
     "support": {
-        "issues": ""
+        "issues": "https://github.com/littlegiant/silverstripe-image-points/issues"
     },
     "require": {
         "silverstripe/cms": "^4",
