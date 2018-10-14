@@ -1,6 +1,6 @@
 <?php
 
-namespace LittleGiant\LittleImagePoints\DataObjects;
+namespace LittleGiant\SilverstripeImagePoints\DataObjects;
 
 use LittleGiant\ImagePoints\Forms\PointField;
 use SilverStripe\Forms\LiteralField;
@@ -13,7 +13,7 @@ use SilverStripe\ORM\FieldType\DBVarchar;
 
 /**
  * Class Point
- * @package LittleGiant\LittleImagePoints\DataObjects
+ * @package LittleGiant\SilverstripeImagePoints\DataObjects
  */
 class Point extends DataObject
 {

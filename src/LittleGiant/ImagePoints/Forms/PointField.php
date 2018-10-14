@@ -1,6 +1,6 @@
 <?php
 
-namespace LittleGiant\ImagePoints\Forms;
+namespace LittleGiant\SilverstripeImagePoints\Forms;
 
 use Psr\Log\InvalidArgumentException;
 use SilverStripe\Forms\FormField;
@@ -9,7 +9,7 @@ use SilverStripe\View\Requirements;
 
 /**
  * Class PointField
- * @package LittleGiant\ImagePoints\Forms
+ * @package LittleGiant\SilverstripeImagePoints\Forms
  */
 class PointField extends FormField
 {
