@@ -48,6 +48,16 @@ $fields->addFieldsToTab('Root.ImagePoints', [
 ]);
 ```
 
+### YAML
+
+Set the height/width of the image in your yml config to set the aspect ratio of the image.
+
+```yml
+LittleGiant\SilverStripeImagePoints\DataObjects\Point:
+  image_width: 1918
+  image_height: 822
+```
+
 ### Template
 
 Usage in the template.
