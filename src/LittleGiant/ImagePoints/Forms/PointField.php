@@ -155,7 +155,7 @@ class PointField extends FormField
     /**
      * @return int
      */
-    public function getXPos(): int
+    public function getXPos(): float
     {
         if (is_array($this->value)) {
             return $this->value['xPos'];
@@ -172,7 +172,7 @@ class PointField extends FormField
     /**
      * @return int
      */
-    public function getYPos(): int
+    public function getYPos(): float
     {
         if (is_array($this->value)) {
             return $this->value['xPos'];
