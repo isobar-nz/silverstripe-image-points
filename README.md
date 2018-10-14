@@ -21,7 +21,7 @@ $ composer require littlegiant/silverstripe-image-points
 Include the point in your model.
 
 ```php
-use LittleGiant\SilverstripeImagePoints\DataObjects\Point;
+use LittleGiant\SilverStripeImagePoints\DataObjects\Point;
 ```
 
 By default the image point will use the model's `Image`, which is a required relationship your model needs. This is needed so you can ad points to something...
