@@ -2,6 +2,7 @@
 
 namespace LittleGiant\SilverStripeImagePoints\DataObjects;
 
+use LittleGiant\SilverStripeImagePoints\Forms\EditableDataObject;
 use LittleGiant\SilverStripeImagePoints\Forms\PointField;
 use SilverStripe\Forms\LiteralField;
 use SilverStripe\Forms\TextareaField;
@@ -17,6 +18,8 @@ use SilverStripe\ORM\FieldType\DBVarchar;
  */
 class Point extends DataObject
 {
+    use EditableDataObject;
+
     /**
      * @config
      * @var int
