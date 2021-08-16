@@ -4,7 +4,10 @@
     "type": "silverstripe-vendormodule",
     "keywords": [
         "silverstripe",
-        "module"
+        "module",
+        "image points",
+        "co-ordinates",
+        "image map"
     ],
     "license": "MIT",
     "authors": [
